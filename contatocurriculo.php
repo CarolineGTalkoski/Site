@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ContatoCurrículo</title>
+    </head>
+        <body>
+            <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $empresa = $_POST['empresa'];
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $mensagem = $_POST['mensagem'];
+
+  
+    echo "<h2>Dados recebidos:</h2>";
+    echo "<p><strong>Nome da Empresa:</strong> $empresa</p>";
+    echo "<p><strong>Nome da Pessoa:</strong> $nome</p>";
+    echo "<p><strong>E-mail:</strong> $email</p>";
+    echo "<p><strong>Telefone:</strong> $telefone</p>";
+    echo "<p><strong>Mensagem:</strong> $mensagem</p>";
+} 
+?>
+            </section>
+        </main>
+        </body>

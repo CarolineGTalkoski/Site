@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Currículo</title>
+    <style type="text/css">
+     body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: pink;
+        }
+        .header {
+            text-align: center;
+            background-color: pink;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .divcab {
+        background-color: rgb(red, green, blue);
+            background: linear-gradient(180deg, rgba(255,192,203)0%,rgba(255,192,203) 35%, rgba(238,130,238)100%);
+            
+            text-aling: center;
+            padding: 20px;
+            clear: both;
+      }
+      .border {
+        border-color: orchid;
+        border-style: groove;
+        padding: 10px;
+      }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Caroline Giaretton Talkoski</h1>
+        <p>currículo</p>
+    </div>
+    <div class="divcab">
+        <br><br>
+    </div>
+
+    <div class="contact-info">
+        <p>Endereço de e-mail: cgiarettontalkoski@gmail.com</p>
+        <p>Número de telefone: (55) 54 90000-0000</p>
+    </div>
+
+    <div class="section">
+        <div class="border">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li>
+                <h3>Unimed Erechim</h3>
+                <p><strong>Cargo:</strong>Auxiliar Adiministrativo</p>
+                <p><strong>Período:</strong> 18/04/2022 - 18/04/2024</p>
+                <p><strong>Setor:</strong> Laboratório</p>
+                <p>Recepcionar, atender telefone, separar e organizar documentos.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <div class="section">
+        <div class="border">
+        <h2>Educação</h2>
+        <ul>
+            <li>
+                <h3>Escola Estadual Normal José Bonifácio</h3>
+                <p><strong>Curso:</strong>Ensino Médio</p>
+                <p><strong>Período:</strong> 02/2023 - 12/2025</p>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+    <div class="section">
+        <div class="border">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>Proativo e Eficiente</li>
+            <li>Rapido Raciocinio Logico</li>
+            <li>Comprometido</li>
+        </ul>
+    </div>
+</div>
+
+    <div class="section">
+        <div class="border">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Inglês: Básico</li>
+        </ul>
+    </div>
+</div>
+<div class="section">
+    <div class="border">
+        <h2>Entre em contato</h2>
+        <form method="post" action="contatoCurriculo.php">
+            <label for="empresa">Nome da Empresa:</label><br>
+            <input type="text" id="empresa" name="empresa" required><br><br>
+    
+            <label for="nome">Nome da Pessoa:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+    
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" required><br><br>
+    
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <a class="btn btn-primary" href="http://localhost:8080/rsti2024/site/indexx.html" role="button">Home</a>
+
+</div>
+</body>
+</html>
